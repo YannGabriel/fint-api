@@ -5,7 +5,6 @@ import (
 	"log"
 	"os"
 	"testing"
-
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 

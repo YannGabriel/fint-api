@@ -3,13 +3,12 @@ package database
 import (
 	"testing"
 	"context"
-	"utils"
-	"github.com/stretchr/testify/require"
 	"github.com/YannGabriel/fint-api/utils"
+	"github.com/stretchr/testify/require"
 )
 
 func TestCreateUser (t *testing.T){
-	Username := utils.;
+	Username := utils.RandomUsername();
 
 
 	user, err := testQueries.CreateUser(context.Background(), Username);

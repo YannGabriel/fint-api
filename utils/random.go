@@ -3,11 +3,12 @@
 package utils
 
 import (
+	"strings"
 	"math/rand"
 	"time"
 )
 
-const alphabet = "abcdefghijklmnopqrstuvwxyzçãõéáóúíìòùàèêâôîû"
+const alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 func init (){
 	rand.Seed(time.Now().UnixNano())
@@ -24,3 +25,8 @@ func RandomString(n int) string{
 
 	return sb.String()
 }
+
+func RandomUsername() string{
+	return RandomString(6)
+}
+
