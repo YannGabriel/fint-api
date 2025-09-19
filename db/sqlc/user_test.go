@@ -5,7 +5,7 @@ import (
 	"context"
 	"utils"
 	"github.com/stretchr/testify/require"
-	"github.com/stretchr/fint-api/utils"
+	"github.com/YannGabriel/fint-api/utils"
 )
 
 func TestCreateUser (t *testing.T){
